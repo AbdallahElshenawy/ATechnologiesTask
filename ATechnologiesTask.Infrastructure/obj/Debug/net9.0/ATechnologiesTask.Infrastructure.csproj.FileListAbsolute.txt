@@ -1,0 +1,17 @@
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Infrastructure\obj\Debug\net9.0\ATechnologiesTask.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Infrastructure\obj\Debug\net9.0\ATechnologiesTask.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Infrastructure\obj\Debug\net9.0\ATechnologiesTask.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Infrastructure\obj\Debug\net9.0\ATechnologiesTask.Infrastructure.AssemblyInfo.cs
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Infrastructure\obj\Debug\net9.0\ATechnologiesTask.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Infrastructure\bin\Debug\net9.0\ATechnologiesTask.Infrastructure.deps.json
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Infrastructure\bin\Debug\net9.0\ATechnologiesTask.Infrastructure.dll
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Infrastructure\bin\Debug\net9.0\ATechnologiesTask.Infrastructure.pdb
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Infrastructure\bin\Debug\net9.0\ATechnologiesTask.Application.dll
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Infrastructure\bin\Debug\net9.0\ATechnologiesTask.Core.dll
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Infrastructure\bin\Debug\net9.0\ATechnologiesTask.Application.pdb
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Infrastructure\bin\Debug\net9.0\ATechnologiesTask.Core.pdb
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Infrastructure\obj\Debug\net9.0\ATechnol.B433B301.Up2Date
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Infrastructure\obj\Debug\net9.0\ATechnologiesTask.Infrastructure.dll
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Infrastructure\obj\Debug\net9.0\refint\ATechnologiesTask.Infrastructure.dll
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Infrastructure\obj\Debug\net9.0\ATechnologiesTask.Infrastructure.pdb
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Infrastructure\obj\Debug\net9.0\ref\ATechnologiesTask.Infrastructure.dll

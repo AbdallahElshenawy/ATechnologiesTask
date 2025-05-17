@@ -1,0 +1,15 @@
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Application\obj\Debug\net9.0\ATechnologiesTask.Application.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Application\obj\Debug\net9.0\ATechnologiesTask.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Application\obj\Debug\net9.0\ATechnologiesTask.Application.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Application\obj\Debug\net9.0\ATechnologiesTask.Application.AssemblyInfo.cs
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Application\obj\Debug\net9.0\ATechnologiesTask.Application.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Application\bin\Debug\net9.0\ATechnologiesTask.Application.deps.json
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Application\bin\Debug\net9.0\ATechnologiesTask.Application.dll
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Application\bin\Debug\net9.0\ATechnologiesTask.Application.pdb
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Application\bin\Debug\net9.0\ATechnologiesTask.Core.dll
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Application\bin\Debug\net9.0\ATechnologiesTask.Core.pdb
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Application\obj\Debug\net9.0\ATechnol.41FAB040.Up2Date
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Application\obj\Debug\net9.0\ATechnologiesTask.Application.dll
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Application\obj\Debug\net9.0\refint\ATechnologiesTask.Application.dll
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Application\obj\Debug\net9.0\ATechnologiesTask.Application.pdb
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Application\obj\Debug\net9.0\ref\ATechnologiesTask.Application.dll

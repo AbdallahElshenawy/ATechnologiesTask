@@ -1,0 +1,11 @@
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Core\bin\Debug\net9.0\ATechnologiesTask.Core.deps.json
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Core\bin\Debug\net9.0\ATechnologiesTask.Core.dll
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Core\bin\Debug\net9.0\ATechnologiesTask.Core.pdb
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Core\obj\Debug\net9.0\ATechnologiesTask.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Core\obj\Debug\net9.0\ATechnologiesTask.Core.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Core\obj\Debug\net9.0\ATechnologiesTask.Core.AssemblyInfo.cs
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Core\obj\Debug\net9.0\ATechnologiesTask.Core.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Core\obj\Debug\net9.0\ATechnologiesTask.Core.dll
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Core\obj\Debug\net9.0\refint\ATechnologiesTask.Core.dll
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Core\obj\Debug\net9.0\ATechnologiesTask.Core.pdb
+C:\Users\Dell\source\repos\ATechnologiesTask\ATechnologiesTask.Core\obj\Debug\net9.0\ref\ATechnologiesTask.Core.dll

@@ -1,0 +1,248 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "Blocked Countries API",
+    "description": "A .NET Core API for managing blocked countries and IP geolocation. Features include blocking/unblocking countries, checking IP-based country blocks, and logging blocked attempts. Each endpoint is rate-limited to 5 requests per minute. Use the Swagger UI to test endpoints and view responses.",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/countries/block": {
+      "post": {
+        "tags": [
+          "BlockedCountries"
+        ],
+        "summary": "Block a country",
+        "description": "Adds a country to the blocked list using its code.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BlockCountryRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BlockCountryRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BlockCountryRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/countries/block/{countryCode}": {
+      "delete": {
+        "tags": [
+          "BlockedCountries"
+        ],
+        "summary": "Unblock a country",
+        "description": "Removes a country from the blocked list by its code.",
+        "parameters": [
+          {
+            "name": "countryCode",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/countries/blocked": {
+      "get": {
+        "tags": [
+          "BlockedCountries"
+        ],
+        "summary": "List blocked countries",
+        "description": "Returns a paginated list of blocked countries, with optional search by code or name.",
+        "parameters": [
+          {
+            "name": "search",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/countries/temporal-block": {
+      "post": {
+        "tags": [
+          "BlockedCountries"
+        ],
+        "summary": "Temporarily block a country",
+        "description": "Blocks a country for a specified duration (1–1440 minutes). Auto-unblocked by background service.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TemporalBlockRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TemporalBlockRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TemporalBlockRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ip/check-block": {
+      "get": {
+        "tags": [
+          "Ip"
+        ],
+        "summary": "Check if IP's country is blocked",
+        "description": "Checks if the caller's IP country is blocked and logs the attempt.",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/ip/lookup": {
+      "get": {
+        "tags": [
+          "Ip"
+        ],
+        "summary": "Look up IP geolocation",
+        "description": "Fetches country details for an IP address using IPGeolocation. If no IP is provided, uses the caller's IP.",
+        "parameters": [
+          {
+            "name": "ipAddress",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/logs/blocked-attempts": {
+      "get": {
+        "tags": [
+          "Logs"
+        ],
+        "summary": "List blocked IP attempts",
+        "description": "Returns a paginated list of blocked IP access attempts, including IP, timestamp, country code, status, and UserAgent.",
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BlockCountryRequest": {
+        "type": "object",
+        "properties": {
+          "countryCode": {
+            "maxLength": 2,
+            "minLength": 2,
+            "type": "string",
+            "nullable": true
+          },
+          "countryName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TemporalBlockRequest": {
+        "type": "object",
+        "properties": {
+          "countryCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "durationMinutes": {
+            "maximum": 1440,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
