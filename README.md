@@ -42,7 +42,9 @@ The **ATechnologiesTask API** is a .NET Core Web API for managing IP-based count
     cd ATechnologiesTask.API
     dotnet run
    ```
-   ```bash
+## Endpoints
+   
+```bash
 | Method | Endpoint                        | Description                                  |
 | ------ | ------------------------------- | -------------------------------------------- |
 | POST   | `/api/countries/block`          | Permanently block a country                  |
